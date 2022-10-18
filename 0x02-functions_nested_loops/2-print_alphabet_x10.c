@@ -12,7 +12,7 @@ void print_alphabet_x10(void)
 
 	count = 0;
 
-	while (count < 11)
+	while (count < 10)
 	{
 		for (alphabet = 97; alphabet < 123; alphabet++)
 		{
