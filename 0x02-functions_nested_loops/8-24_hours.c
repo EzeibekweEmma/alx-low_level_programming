@@ -20,7 +20,7 @@ void jack_bauer(void)
 				{
 					_putchar(hrB);
 					_putchar(hrA);
-					_putchar(':');
+					_putchar(58);
 					_putchar(minB);
 					_putchar(minA);
 					_putchar('\n');
