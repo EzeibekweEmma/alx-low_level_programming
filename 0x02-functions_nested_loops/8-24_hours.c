@@ -18,12 +18,12 @@ void jack_bauer(void)
 			{
 				for (minA = 48; minA < 58; minA++)
 				{
-					putchar(hrB);
-					putchar(hrA);
-					putchar(':');
-					putchar(minB);
-					putchar(minA);
-					putchar('\n');
+					_putchar(hrB);
+					_putchar(hrA);
+					_putchar(':');
+					_putchar(minB);
+					_putchar(minA);
+					_putchar('\n');
 				}
 			}
 		}
