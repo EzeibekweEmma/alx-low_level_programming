@@ -9,9 +9,9 @@
 int main(void)
 {
 	long num = 612852475143;
-	int i;
+	int i = 2;
 
-	for (i = 0; i < num; i++)
+	for (; i < num; i++)
 	{
 		if (num % i == 0)
 		{
