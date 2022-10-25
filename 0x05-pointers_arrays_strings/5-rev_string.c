@@ -10,6 +10,8 @@ void rev_string(char *s)
 {
 	int len = strlen(s);
 
+	puts(s);
+	putchar('\n');
 	while (len--)
 	{
 		printf("%c", s[len]);
