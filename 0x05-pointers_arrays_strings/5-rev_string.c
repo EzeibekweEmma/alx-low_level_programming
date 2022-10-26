@@ -5,18 +5,21 @@
  * rev_string - function that reverses a string
  * @s: string
  */
-
 void rev_string(char *s)
 {
-	int i, j, len;
-	char a[10];
+	int len, i, half;
+	char temp;
 
-	len = strlen(s);
-	i = 0, j = 9;
+	for (len = 0; s[len] != '\0'; len++)
+		;
+	i = 0;
+	half = len / 2;
 
-	while (len--)
-		a[len] = s[len];
-
-	while (j--)
-		s[i++] = a[j];
+	while (half--)
+	{
+		temp = s[len - i - 1];
+		s[len - i - 1] = s[i];
+		s[i] = temp;
+		i++;
+	}
 }
