@@ -8,13 +8,16 @@
 
 void rev_string(char *s)
 {
-	int len = strlen(s);
+	int len, i, j;
 
-	puts(s);
-	putchar('\n');
+	len = strlen(s);
+	char a[len];
+
+	i = 0, j = 9;
+
 	while (len--)
-	{
-		printf("%c", s[len]);
-	}
-	putchar('\n');
+		a[len] = s[len];
+
+	while (j--)
+		s[i++] = a[j];
 }
