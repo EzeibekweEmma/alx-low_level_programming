@@ -10,14 +10,16 @@
 
 int main(int argc, char *argv[])
 {
-	int a = atoi(argv[1]), b = atoi(argv[2]);
-	int sum = a * b;
+	int a, b, sum;
 
-	if (argc < 3)
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
+
+	a = atoi(argv[1]), b = atoi(argv[2]);
+	sum = a * b;
 
 	printf("%d\n", sum);
 	return (0);
