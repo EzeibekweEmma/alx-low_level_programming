@@ -6,6 +6,9 @@
  * @name: the name of the dog.
  * @age: the age of the dog.
  * @owner: the owner of the dog.
+ *
+ * dog_t - typedef for dog structure
+ * description: the attributes of a dog.
  */
 
 typedef struct dog 
