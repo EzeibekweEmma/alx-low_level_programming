@@ -1,5 +1,6 @@
 #ifndef _LISTS_H_
 #define _LISTS_H_
+
 /* Struct */
 /**
  * struct list_s - singly linked list
@@ -11,11 +12,10 @@
  */
 typedef struct list_s
 {
-    char *str;
-    unsigned int len;
-    struct list_s *next;
+	char *str;
+	unsigned int len;
+	struct list_s *next;
 } list_t;
-
 
 /* Standard library header files */
 #include <stdlib.h>
